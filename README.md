@@ -127,3 +127,6 @@ tidak ada perbedaan
     );
     }
 pada bagian src tiap objek dijadikan satu objek dengan {} lalu menggabungkan tiap objek dengan + karena tiap objek memiliki tipe data sama string
+
+## Jawaban Soal 7
+![alt text](assets/04.png)
