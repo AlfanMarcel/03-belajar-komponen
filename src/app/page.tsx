@@ -1,13 +1,15 @@
 import { Gallery } from "@/components/gallery";
-import Profile from "../components/profile";
+import TodoList from "@/components/todolist";
 
 
 export default function Home() {
-  
   return (
-    <div>
-      <center><p>Ilmuan yang luar biasa</p></center>
+    <section>
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+      <hr />
       <Gallery />
-    </div>
+      <hr />
+      <TodoList />
+    </section>
   );
 }
