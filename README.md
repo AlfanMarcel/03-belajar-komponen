@@ -62,3 +62,68 @@ kode yang benar
     }
 
 dengan menambahkan .name pada {person} pada h1 karena dalam person hanya name yang belum dipanggil
+
+## Jawaban Soal 5
+
+    const person = {
+        name: 'Gregorio Y. Zara',
+        theme: {
+        backgroundColor: 'black',
+        color: 'pink'
+        },
+        img: "https://i.imgur.com/7vQD0fPs.jpg"
+    };
+    
+    export default function TodoList() {
+        return (
+        <div style={person.theme}>
+            <h1>{person.name}'s Todos</h1>
+            <img
+            className="avatar"
+            src={person.img}
+            alt="Gregorio Y. Zara"
+            />
+            <ul>
+            <li>Improve the videophone</li>
+            <li>Prepare aeronautics lectures</li>
+            <li>Work on the alcohol-fuelled engine</li>
+            </ul>
+        </div>
+        );
+    }
+![round](assets\03.png)
+tidak ada perbedaan 
+
+## Jawaban Soal 6
+tidak ada perbedaan
+![alt text](assets/03.png)
+
+    const baseUrl = 'https://i.imgur.com/';
+    const person = {
+    name: 'Gregorio Y. Zara',
+    imageId: '7vQD0fP',
+    imageSize: 's',
+    theme: {
+        backgroundColor: 'black',
+        color: 'pink'
+    }
+    };
+
+    export default function TodoList() {
+    return (
+        <div style={person.theme}>
+        <h1>{person.name}'s Todos</h1>
+        <img
+            className="avatar"
+            src={baseUrl+person.imageId+person.imageSize+".jpg"}
+            alt={person.name}
+        />
+        <ul>
+            <li>Improve the videophone</li>
+            <li>Prepare aeronautics lectures</li>
+            <li>Work on the alcohol-fuelled engine</li>
+        </ul>
+        </div>
+    );
+    }
+pada bagian src tiap objek dijadikan satu objek dengan {} lalu menggabungkan tiap objek dengan + karena tiap objek memiliki tipe data sama string
