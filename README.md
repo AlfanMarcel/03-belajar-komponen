@@ -6,11 +6,11 @@
 | Kelas | TI-3A |
 
 ## Jawaban Soal 1
-![round](assets\01.png)
+![round](assets/01.png)
 perlu menambahkan domain website imgur pada next.config.mjs supaya gambar dapat ditampilkan
 
 ## Jawaban Soal 2
-![round](assets\01.png)
+![round](assets/01.png)
 membuat komponen baru yang bernama {Gallery} dimana isi komponen Gallery adalah memanggil komponen Profile sebanyak 3x dengan columns-3
 
 ## Jawaban Soal 3
@@ -30,7 +30,7 @@ kode yang benar
     </div>
     );
     }
-![round](assets\02.png)
+![round](assets/02.png)
 
 ## Jawaban Soal 4
 kode yang benar
@@ -91,7 +91,7 @@ dengan menambahkan .name pada {person} pada h1 karena dalam person hanya name ya
         </div>
         );
     }
-![round](assets\03.png)
+![round](assets/03.png)
 tidak ada perbedaan 
 
 ## Jawaban Soal 6
